@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Green Market IA - MVP</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f0f8f4;
+    }
+    header {
+      background-color: #2e7d32;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    .container {
+      padding: 1rem;
+    }
+    .search-section {
+      margin-bottom: 2rem;
+    }
+    .search-input {
+      width: 100%;
+      padding: 0.75rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .vendor-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+    .vendor-card {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      padding: 1rem;
+    }
+    .vendor-card h3 {
+      margin-top: 0;
+      color: #2e7d32;
+    }
+    .vendor-card p {
+      margin: 0.5rem 0;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #2e7d32;
+      color: white;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Green Market IA</h1>
+    <p>Consommez local et écologique à Brazzaville</p>
+  </header>
+
+  <div class="container">
+    <section class="search-section">
+      <input type="text" class="search-input" placeholder="Recherchez un produit éco (ex: savon bio, miel...)" />
+    </section>
+
+    <section class="vendor-list">
+      <div class="vendor-card">
+        <h3>Miel naturel de Makoua</h3>
+        <p><strong>Vendeur:</strong> Apiculture Bio Congo</p>
+        <p><strong>Zone:</strong> Talangaï</p>
+        <p><strong>Prix:</strong> 2000 FCFA / 500ml</p>
+        <button>Commander</button>
+      </div>
+
+      <div class="vendor-card">
+        <h3>Savon noir artisanal</h3>
+        <p><strong>Vendeur:</strong> Kongo Cosmétiques</p>
+        <p><strong>Zone:</strong> Poto-Poto</p>
+        <p><strong>Prix:</strong> 1000 FCFA / unité</p>
+        <button>Commander</button>
+      </div>
+
+      <div class="vendor-card">
+        <h3>Feuilles de moringa fraîches</h3>
+        <p><strong>Vendeur:</strong> Coopérative Verts du Sud</p>
+        <p><strong>Zone:</strong> Bacongo</p>
+        <p><strong>Prix:</strong> 500 FCFA / botte</p>
+        <button>Commander</button>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    &copy; 2025 Green Market IA - Tous droits réservés
+  </footer>
+</body>
+</html>
